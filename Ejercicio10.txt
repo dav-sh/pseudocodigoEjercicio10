@@ -1,0 +1,16 @@
+Algoritmo Ejercicio10
+	multiplos <- 0
+	rango <- 0
+	suma <- 0
+	Mientras suma<=1000 Hacer
+		Escribir 'Ingrese un numero: '
+		Leer n
+		suma <- suma+n
+		Si n MOD 6==0 Entonces
+			multiplos <- multiplos+1
+		FinSi
+		Si n>=1 Y n<=10 Entonces
+			rango <- rango+n
+		FinSi
+	FinMientras
+FinAlgoritmo
